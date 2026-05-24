@@ -1,0 +1,66 @@
+<diamante>
+# Exemplo Hello World
+imprimir("Olá, Diamante!")
+
+# Variáveis
+nome = "Gustavo"
+idade = 25
+altura = 1.80
+ativo = verdadeiro
+
+imprimir("Nome:", nome)
+imprimir("Idade:", idade)
+imprimir("Altura:", altura)
+imprimir("Ativo:", ativo)
+
+# Tipos
+imprimir("\nTipos:")
+imprimir(tipo(nome))
+imprimir(tipo(idade))
+imprimir(tipo([1, 2, 3]))
+
+# Operações
+imprimir("\nOperações:")
+imprimir(5 + 3)
+imprimir(10 - 2)
+imprimir(4 * 5)
+imprimir(20 / 4)
+imprimir(2 ** 10)
+
+# Comparações
+imprimir("\nComparações:")
+imprimir(5 > 3)
+imprimir(5 == 5)
+imprimir(10 != 5)
+
+# Listas
+imprimir("\nListas:")
+numeros = [1, 2, 3, 4, 5]
+imprimir(numeros)
+imprimir(comprimento(numeros))
+
+# Dicionários
+imprimir("\nDicionários:")
+pessoa = {"nome": "João", "idade": 30}
+imprimir(pessoa)
+
+# Funções
+imprimir("\nFunções:")
+funcao quadrado(x):
+    retornar x * x
+
+imprimir(quadrado(5))
+
+# Controle de fluxo
+imprimir("\nControle de Fluxo:")
+num = 10
+se (num > 5):
+    imprimir("Número é maior que 5")
+senao:
+    imprimir("Número é menor ou igual a 5")
+
+# Loops
+imprimir("\nLoops:")
+para i em intervalo(5):
+    imprimir(i)
+</diamante>
